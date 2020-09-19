@@ -2,6 +2,8 @@ syntax = "proto3";
 
 package routeguide;
 
+option go_package = "proto/routeguide";
+
 service RouteGuide {
     // A simple RPC.
     //
